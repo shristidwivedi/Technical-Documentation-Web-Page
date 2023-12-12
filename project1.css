@@ -1,0 +1,121 @@
+/* Additional Styling */
+
+body {
+    background-color: #f8f8f8;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+nav#navbar header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav#navbar a {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+nav#navbar a:hover {
+    background-color: #ddd;
+}
+
+main#main-doc {
+    margin-left: 250px;
+    padding: 20px;
+    min-width: calc(100% - 250px);
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add specific styling for sections, images, lists, etc. */
+
+/* Example styling for section headers */
+main#main-doc h2 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Example styling for images */
+main#main-doc img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Example styling for lists */
+main#main-doc ul, main#main-doc ol {
+    margin: 15px 0;
+}
+
+/* Example styling for code snippets */
+main#main-doc pre {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border: 1px solid #ddd;
+    overflow: auto;
+}
+/* Updated Navbar and Header Styling */
+
+nav#navbar {
+    width: 250px;
+    background-color: #2c3e50; /* Navy Blue */
+    color: white;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+}
+
+nav#navbar header {
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+nav#navbar a {
+    display: block;
+    padding: 15px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+nav#navbar a:hover {
+    background-color: #34495e; /* Darker Navy Blue on hover */
+}
+
+main#main-doc {
+    margin-left: 250px;
+    padding: 20px;
+    min-width: calc(100% - 250px);
+    background-color: #ecf0f1; /* Light Gray */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+main#main-doc h2 {
+    background-color: #208ad0; /* Blue */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+main#main-doc h3 {
+    color: #2c3e50; /* Dark Gray */
+}
+
+/* Optional: Add Hover Effect to Headers */
+main#main-doc h2:hover, main#main-doc h3:hover {
+    background-color: #2980b9; /* Darker Blue on hover */
+    color: white;
+    cursor: pointer;
+}
